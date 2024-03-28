@@ -1,4 +1,5 @@
 screenshot
+allure-results/
 target/
 test-output
 !.mvn/wrapper/maven-wrapper.jar
