@@ -11,7 +11,7 @@ public class VintedLoginTest extends TestBase {
     @Override
 
     public void setUp() {
-        VintedLoginPage.openUrl("https://www.vinted.lt/");
+        VintedLoginPage.openUrl("https://www.vinted.l/");
         VintedLoginPage.dennyCookies();
 
     }
