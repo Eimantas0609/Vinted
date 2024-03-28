@@ -1,6 +1,8 @@
 package lt.eimantas.vinted.pages;
 
 import lt.eimantas.vinted.utils.Driver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.time.Duration;
 
@@ -14,7 +16,16 @@ public class Common {
         Driver.getDriver().get(url);
     }
 
+    private static WebElement getElement(By locator) {
+        return Driver.getDriver().findElement(locator);
+    }
+
     public static void quitDriver() {
         Driver.quitDriver();
     }
+
+    public static void clickOnElement(By locator) {
+        getElement(locator).click();
+    }
+
 }

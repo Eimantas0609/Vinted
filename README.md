@@ -9,7 +9,7 @@ https://www.vinted.lt/
 #### Technologies: JAVA/Maven
 #### Dependencies:
 * Selenium
-* testNg
+* TestNg
 * WebDriver manager
 
 
